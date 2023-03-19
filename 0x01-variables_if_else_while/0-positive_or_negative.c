@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - entry point
- *
+ * main - Entry point
+ * Description: 'program checks if number is postive or negative'
  * Return: always return 0
  *
  */
