@@ -7,15 +7,19 @@
  */
 int main(void)
 {
-	char x;
+	int x;
+	unsigned char a = '0';
 
-	for  (x = 'a'; x <= 'z'; x++)
+	for (x = 0; x <= 9; x++)
 	{
-		if (x == 'q' || x == 'e')
-		{
-			continue;
-		}
-		putchar(x);
+		putchar(a);
+		a++;
+	}
+	a = '1';
+	for (x = 0; x <= 5; x++)
+	{
+		putchar('0' +a);
+		a++;
 	}
 	putchar('\n');
 	return (0);
