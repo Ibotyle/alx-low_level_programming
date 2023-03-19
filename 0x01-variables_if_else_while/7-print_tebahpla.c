@@ -9,14 +9,8 @@ int main(void)
 {
 	char x;
 
-	for ( (x = 'a'; x <= 'z'; x++) )
-	{
-		if (x = 'q' || x == 'e')
-		{
-			continue;
-		}
+	for (x = 'z'; x >= 'a'; x--)
 		putchar(x);
-	}
 	putchar('\n');
 	return (0);
 }
