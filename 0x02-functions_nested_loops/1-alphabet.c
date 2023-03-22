@@ -2,7 +2,9 @@
 
 /**
  * main - check the code
- * Description: function to print alphabet
+ *
+ * Description - function to print alphabet
+ *
  * Return: Always 0.
  */
 
