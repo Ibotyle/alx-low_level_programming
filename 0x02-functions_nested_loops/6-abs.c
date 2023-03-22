@@ -1,6 +1,8 @@
 #include "main.h"
 /*
- * _abs - main function
+ * _abs - check absolute value of an integer
+ *
+ * Return: return 0 or -1
  *
  */
 int _abs(int n)
