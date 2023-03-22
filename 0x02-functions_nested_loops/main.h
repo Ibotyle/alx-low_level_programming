@@ -32,3 +32,8 @@ int _isalpha(int c);
  * Return: 1 or 0  or -1
  */
 int print_sign(int n);
+/**
+ * _abs - provides absolute value
+ * Return: integer or absolute value of integer
+ */
+int _abs(int);
