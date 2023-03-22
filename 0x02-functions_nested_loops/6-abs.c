@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _abs - check absolute value of an integer
  *
  * Return: return 0 or -1
