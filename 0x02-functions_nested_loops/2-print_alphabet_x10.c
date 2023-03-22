@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
  *
- * Description: function to print alphabet 10 times
- *
- * Return: Always 0.
+ * print_alphabet_x10 - function to print alphabet 10 times
  */
 
 void print_alphabet_x10(void)
