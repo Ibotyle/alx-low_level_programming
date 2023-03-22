@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - access point to code
  *
@@ -19,4 +20,3 @@ int main(void)
 
 	return (0);
 }
-
