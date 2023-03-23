@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * _isupper - access point to code
  * @: character to check
  * Return: Always 0
  */
-
 int _isupper(int c);
 {
 	if (c >= 65 && c <= 90)
