@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _isupper - access point to code
  * @c: character to check
