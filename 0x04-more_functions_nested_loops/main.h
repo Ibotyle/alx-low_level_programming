@@ -1,3 +1,6 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
 /**
  * _isupper - checks for uppercase character
  * @c: parameter to compare
