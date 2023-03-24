@@ -1,26 +1,12 @@
-#include "main.h"
+#include "main"
 /**
- * positive_or_negative - check the function
- *
+ * main - check if integer is positive or negative
  * Return: Always 0
  */
 int main(void)
 {
-        int n;
-
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        /* your code goes there */
-        if (n < 0)
-        {
-                printf("%d is negative\n", n);
-        }
-        if (n == 0)
-        {
-                printf("%d is zero\n", n);
-        }
-        if (n > 0)
-        {
-                printf("%d is positive\n", n);
-        }
-        return (0);
+	int i;
+	i = 0;
+	positive_or_negative(i);
+	return (0);
+}
